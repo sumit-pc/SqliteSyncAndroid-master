@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.delaroystudios.offlinesync"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="25"
+8-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="28" />
+9-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:7:15-44
+10    <!-- Permission: Allow application to connect to Internet -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:9:5-67
+11-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:9:22-64
+12
+13    <!-- Permission: Allow application to write to SDCard -->
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:12:5-81
+14-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:12:22-78
+15
+16    <application
+16-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:13:5-31:19
+17        android:allowBackup="true"
+17-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:14:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.0] C:\Users\sumitp\.gradle\caches\transforms-2\files-2.1\4de34232979cbe134bd28b81339a3afe\core-1.0.0\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:15:9-45
+21        android:label="@string/app_name"
+21-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:16:9-41
+22        android:theme="@style/AppTheme" >
+22-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:17:9-40
+23        <activity
+23-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:18:9-26:20
+24            android:name="com.delaroystudios.offlinesync.MainActivity"
+24-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:19:13-71
+25            android:label="@string/app_name"
+25-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:20:13-45
+26            android:noHistory="true" >
+26-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:20:46-70
+27            <intent-filter>
+27-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:21:13-25:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:22:17-69
+28-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:22:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:24:17-77
+30-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:24:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:27:11-30:20
+34            android:name="com.delaroystudios.offlinesync.NewUser"
+34-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:28:13-66
+35            android:label="@string/adduseractivitylabel"
+35-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:29:13-57
+36            android:noHistory="true" >
+36-->E:\Development\SqliteSyncAndroid-master\app\src\main\AndroidManifest.xml:29:58-82
+37        </activity>
+38    </application>
+39
+40</manifest>
